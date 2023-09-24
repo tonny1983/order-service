@@ -1,0 +1,8 @@
+spring:
+  r2dbc:
+    url: r2dbc:h2:mem:///test_db
+  liquibase:
+    enabled: false
+
+polar:
+  catalog-service-uri: http://localhost:8080
